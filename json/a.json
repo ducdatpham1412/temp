@@ -1,0 +1,27 @@
+{
+  "baseFeeTrend": "down",
+  "estimatedBaseFee": "0.0",
+  "high": {
+    "maxWaitTimeEstimate": 60000,
+    "minWaitTimeEstimate": 15000,
+    "suggestedMaxFeePerGas": "1",
+    "suggestedMaxPriorityFeePerGas": "1"
+  },
+  "historicalBaseFeeRange": ["0", "0"],
+  "historicalPriorityFeeRange": ["1", "5"],
+  "latestPriorityFeeRange": ["1", "5"],
+  "low": {
+    "maxWaitTimeEstimate": 30000,
+    "minWaitTimeEstimate": 15000,
+    "suggestedMaxFeePerGas": "1",
+    "suggestedMaxPriorityFeePerGas": "1"
+  },
+  "medium": {
+    "maxWaitTimeEstimate": 45000,
+    "minWaitTimeEstimate": 15000,
+    "suggestedMaxFeePerGas": "1",
+    "suggestedMaxPriorityFeePerGas": "1"
+  },
+  "networkCongestion": 0,
+  "priorityFeeTrend": "up"
+}
