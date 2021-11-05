@@ -1,0 +1,172 @@
+[
+  {
+    "id": "pig",
+    "type": "animal",
+    "name": {
+      "en": "Pig",
+      "vi": "Lợn",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "cat",
+    "type": "animal",
+    "name": {
+      "en": "Cat",
+      "vi": "Mèo",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "dog",
+    "type": "animal",
+    "name": {
+      "en": "Dog",
+      "vi": "Chó",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "mouse",
+    "type": "animal",
+    "name": {
+      "en": "Mouse",
+      "vi": "Chuột",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "chicken",
+    "type": "animal",
+    "name": {
+      "en": "Chicken",
+      "vi": "Gà",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "eagle",
+    "type": "animal",
+    "name": {
+      "en": "Eagle",
+      "vi": "Đại bàng",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "snake",
+    "type": "animal",
+    "name": {
+      "en": "Snake",
+      "vi": "Rắn",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "apple",
+    "type": "plant",
+    "name": {
+      "en": "Apple",
+      "vi": "Táo",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "corn",
+    "type": "plant",
+    "name": {
+      "en": "Corn",
+      "vi": "Ngô",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "sweet_potato",
+    "type": "plant",
+    "name": {
+      "en": "Sweet Potato",
+      "vi": "Khoai lang",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "carrot",
+    "type": "plant",
+    "name": {
+      "en": "Carrot",
+      "vi": "Cà rốt",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "lettuce",
+    "type": "plant",
+    "name": {
+      "en": "Lettuce",
+      "vi": "Rau xà lách",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "cheese",
+    "type": "food",
+    "name": {
+      "en": "Cheese",
+      "vi": "Phô mai",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "bone",
+    "type": "food",
+    "name": {
+      "en": "Bone",
+      "vi": "Xương",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "fish",
+    "type": "animal",
+    "name": {
+      "en": "Fish",
+      "vi": "Cá",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "worm",
+    "type": "animal",
+    "name": {
+      "en": "Worm",
+      "vi": "Sâu",
+      "ko": "",
+      "jp": ""
+    }
+  },
+  {
+    "id": "peanut",
+    "type": "plant",
+    "name": {
+      "en": "Peanut",
+      "vi": "Đậu",
+      "ko": "",
+      "jp": ""
+    }
+  }
+]

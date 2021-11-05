@@ -1,0 +1,40 @@
+{
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "mongo": "node important/mongo.js",
+        "mongo-production": "node important/mongoProduction.js"
+    },
+    "dependencies": {
+        "@react-native-camera-roll/camera-roll": "^7.2.2",
+        "@react-navigation/bottom-tabs": "^6.2.0",
+        "async-mutex": "^0.4.0",
+        "axios": "^0.24.0",
+        "crypto": "^1.0.1",
+        "crypto-js": "^4.1.1",
+        "dayjs": "^1.11.3",
+        "discord.js": "^13.7.0",
+        "dotenv": "^16.0.0",
+        "ethers": "^5.7.2",
+        "express": "^4.17.1",
+        "hex-rgb": "^5.0.0",
+        "http": "^0.0.1-security",
+        "https": "^1.0.0",
+        "is-url-http": "^2.3.5",
+        "mongodb": "^4.3.1",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.3",
+        "react": "^18.2.0",
+        "react-dom": "^19.0.0",
+        "react-fast-compare": "^3.2.0",
+        "react-native": "^0.71.7",
+        "react-native-double-click": "^1.0.5",
+        "react-native-momosdk": "^1.4.3",
+        "react-native-rsa-native": "^2.0.5",
+        "react-native-vision-camera": "^3.6.4",
+        "read-excel-file": "^5.5.3",
+        "socket.io-client": "^4.4.1",
+        "typescript": "^4.9.3",
+        "ws": "^8.14.1"
+    }
+}

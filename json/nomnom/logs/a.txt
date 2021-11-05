@@ -1,0 +1,44 @@
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+Cell In[6], line 1
+----> 1 init_level(2)
+
+Cell In[5], line 117, in init_level(size)
+    111 init_creature = random.choice(creatures)
+    112 data[init_index] = {
+    113     "index": init_index,
+    114     "creature_id": init_creature["id"],
+    115     "direction": random.choice(directions),
+    116 }
+--> 117 set_value_for_around_items(init_index)
+    119 while True:
+    120     print("Should reset is: ", should_reset)
+
+Cell In[5], line 75, in init_level.<locals>.set_value_for_around_items(index, steps, e)
+     73     if next_step > 0:
+     74         for item in items:
+---> 75             set_value_for_around_items(item["index"], next_step, "eaten")
+     77 elif e == "eat":
+     78     item = random.choice(items)
+
+Cell In[5], line 63, in init_level.<locals>.set_value_for_around_items(index, steps, e)
+     60         e = "eat"
+     62 if e == "eaten":
+---> 63     items = random.sample(items, k=random.randint(1, len(items)))
+     64     creatures_eat = relationship[init_item["creature_id"]]["eaten"]
+     65     if not len(creatures_eat):
+
+File /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/random.py:362, in Random.randint(self, a, b)
+    358 def randint(self, a, b):
+    359     """Return random integer in range [a, b], including both end points.
+    360     """
+--> 362     return self.randrange(a, b+1)
+
+File /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/random.py:345, in Random.randrange(self, start, stop, step)
+    343     if width > 0:
+    344         return istart + self._randbelow(width)
+--> 345     raise ValueError("empty range for randrange() (%d, %d, %d)" % (istart, istop, width))
+    347 # Non-unit step argument supplied.
+    348 if istep > 0:
+
+ValueError: empty range for randrange() (1, 1, 0)
