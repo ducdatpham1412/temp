@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+autopep8 = "==1.5.7"
+djangorestframework = "==3.12.4"
+filelock = "==3.0.12"
+mysqlclient = "==2.0.3"
+pywatchman = "==1.4.1"
+simplejson = "==3.17.5"
+sqlparse = "==0.4.1"
+virtualenv = "==20.4.7"
+virtualenv-clone = "==0.5.4"
+Django = "==3.2.4"
+mysql-connector-python = "*"
+redis = "*"
+pymongo = "*"
+python-dateutil = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
