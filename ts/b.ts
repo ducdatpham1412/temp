@@ -1,0 +1,3 @@
+const Check = {
+  one: 'one',
+};
