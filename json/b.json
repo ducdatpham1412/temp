@@ -1,0 +1,264 @@
+{
+  "containsSwitchChain": false,
+  "fromAmount": "100000",
+  "fromAmountUSD": 0.1,
+  "fromChainId": 137,
+  "fromToken": {
+    "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "decimals": 6,
+    "symbol": "USDT",
+    "iconURL": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "name": "USDT",
+    "price": 1.000505,
+    "chainId": 137
+  },
+  "gasCostUSD": 0.03,
+  "id": "0xf460fc89eb9f17d2cfa22a9eb784cdf21c32f22f37af0168a53fde280462cd0e",
+  "insurance": { "state": "NOT_INSURABLE", "feeAmountUsd": "0" },
+  "steps": [
+    {
+      "id": "c48488d3-ed4e-4938-97d5-8ca02b78e155",
+      "type": "lifi",
+      "tool": "1inch",
+      "toolDetails": {
+        "key": "1inch",
+        "name": "1inch",
+        "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/exchanges/oneinch.png"
+      },
+      "action": {
+        "fromToken": {
+          "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "decimals": 6,
+          "symbol": "USDT",
+          "iconURL": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+          "name": "USDT",
+          "price": 1.000505,
+          "chainId": 137
+        },
+        "fromAmount": "100000",
+        "toToken": {
+          "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+          "decimals": 18,
+          "symbol": "DAI",
+          "iconURL": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+          "name": "(PoS) DAI Stablecoin",
+          "price": 0.99985,
+          "chainId": 137
+        },
+        "fromChainId": 137,
+        "toChainId": 137,
+        "slippage": 0.04,
+        "fromAddress": "0x5772B9612d69fDc40BbACBb5DC91d76196f8eA0D",
+        "toAddress": "0x5772B9612d69fDc40BbACBb5DC91d76196f8eA0D"
+      },
+      "estimate": {
+        "tool": "1inch",
+        "approvalAddress": "0x1231DEB6f5749EF6cE6943a275A1D3E7486F4EaE",
+        "toAmountMin": "95746483755261290",
+        "toAmount": "99735920578397177",
+        "fromAmount": "100000",
+        "fromAmountUSD": 0.1,
+        "toAmountUSD": 0.1,
+        "executionDuration": 30,
+        "feeCosts": [
+          {
+            "name": "Integrator Fee",
+            "description": "Fee shared between integrator and LI.FI",
+            "token": {
+              "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+              "decimals": 6,
+              "symbol": "USDT",
+              "iconURL": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+              "name": "USDT",
+              "price": 1.000505,
+              "chainId": 137
+            },
+            "amount": "100",
+            "amountUSD": 0.01,
+            "percentage": 0,
+            "included": true
+          }
+        ],
+        "gasCosts": [
+          {
+            "type": "SEND",
+            "price": "73000000000",
+            "estimate": "429386",
+            "limit": "772386",
+            "amount": "31345178000000000",
+            "amountUSD": 0.03,
+            "token": {
+              "address": "",
+              "decimals": 18,
+              "symbol": "MATIC",
+              "iconURL": "https://static.debank.com/image/matic_token/logo_url/matic/6f5a6b6f0732a7a235131bd7804d357c.png",
+              "name": "MATIC",
+              "price": 1.016211,
+              "chainId": 137
+            }
+          }
+        ]
+      },
+      "includedSteps": [
+        {
+          "id": "1c2da3d4-cc24-4732-aa8b-abd389b4e7e7",
+          "type": "protocol",
+          "tool": "feeCollection",
+          "toolDetails": {
+            "key": "feeCollection",
+            "name": "Integrator Fee",
+            "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/protocols/feeCollection.png"
+          },
+          "action": {
+            "fromToken": {
+              "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+              "decimals": 6,
+              "symbol": "USDT",
+              "iconURL": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+              "name": "USDT",
+              "price": 1.000505,
+              "chainId": 137
+            },
+            "fromAmount": "100000",
+            "toToken": {
+              "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+              "decimals": 6,
+              "symbol": "USDT",
+              "iconURL": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+              "name": "USDT",
+              "price": 1.000505,
+              "chainId": 137
+            },
+            "fromChainId": 137,
+            "toChainId": 137,
+            "slippage": 0.04
+          },
+          "estimate": {
+            "tool": "feeCollection",
+            "approvalAddress": "0xbD6C7B0d2f68c2b7805d88388319cfB6EcB50eA9",
+            "toAmountMin": "99900",
+            "toAmount": "99900",
+            "fromAmount": "100000",
+            "executionDuration": 0,
+            "feeCosts": [
+              {
+                "name": "Integrator Fee",
+                "description": "Fee shared between integrator and LI.FI",
+                "token": {
+                  "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+                  "decimals": 6,
+                  "symbol": "USDT",
+                  "iconURL": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+                  "name": "USDT",
+                  "price": 1.000505,
+                  "chainId": 137
+                },
+                "amount": "100",
+                "amountUSD": 0.01,
+                "percentage": 0,
+                "included": true
+              }
+            ],
+            "gasCosts": [
+              {
+                "type": "SEND",
+                "price": "73000000000",
+                "estimate": "200000",
+                "limit": "200000",
+                "amount": "130000",
+                "amountUSD": 0.01,
+                "token": {
+                  "address": "",
+                  "decimals": 18,
+                  "symbol": "MATIC",
+                  "iconURL": "https://static.debank.com/image/matic_token/logo_url/matic/6f5a6b6f0732a7a235131bd7804d357c.png",
+                  "name": "MATIC",
+                  "price": 1.016211,
+                  "chainId": 137
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "a6ff4c0a-073a-476c-925b-58663ab4b28f",
+          "type": "swap",
+          "tool": "1inch",
+          "toolDetails": {
+            "key": "1inch",
+            "name": "1inch",
+            "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/exchanges/oneinch.png"
+          },
+          "action": {
+            "fromToken": {
+              "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+              "decimals": 6,
+              "symbol": "USDT",
+              "iconURL": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+              "name": "USDT",
+              "price": 1.000505,
+              "chainId": 137
+            },
+            "fromAmount": "99900",
+            "toToken": {
+              "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+              "decimals": 18,
+              "symbol": "DAI",
+              "iconURL": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+              "name": "(PoS) DAI Stablecoin",
+              "price": 0.99985,
+              "chainId": 137
+            },
+            "fromChainId": 137,
+            "toChainId": 137,
+            "slippage": 0.04
+          },
+          "estimate": {
+            "tool": "1inch",
+            "approvalAddress": "0x1111111254eeb25477b68fb85ed929f73a960582",
+            "toAmountMin": "95746483755261290",
+            "toAmount": "99735920578397177",
+            "fromAmount": "99900",
+            "executionDuration": 30,
+            "feeCosts": [],
+            "gasCosts": [
+              {
+                "type": "SEND",
+                "price": "73000000000",
+                "estimate": "229386",
+                "limit": "344079",
+                "amount": "16745178000000000",
+                "amountUSD": 0.02,
+                "token": {
+                  "address": "",
+                  "decimals": 18,
+                  "symbol": "MATIC",
+                  "iconURL": "https://static.debank.com/image/matic_token/logo_url/matic/6f5a6b6f0732a7a235131bd7804d357c.png",
+                  "name": "MATIC",
+                  "price": 1.016211,
+                  "chainId": 137
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "toToken": {
+    "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+    "decimals": 18,
+    "symbol": "DAI",
+    "iconURL": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+    "name": "(PoS) DAI Stablecoin",
+    "price": 0.99985,
+    "chainId": 137
+  },
+  "toChainId": 137,
+  "toAmount": "99735920578397177",
+  "toAmountMin": "95746483755261290",
+  "toAmountUSD": 0.1,
+  "tags": ["RECOMMENDED", "CHEAPEST", "FASTEST"],
+  "fromAddress": "0x5772B9612d69fDc40BbACBb5DC91d76196f8eA0D",
+  "toAddress": "0x5772B9612d69fDc40BbACBb5DC91d76196f8eA0D"
+}
